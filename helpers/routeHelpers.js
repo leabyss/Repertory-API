@@ -18,16 +18,10 @@ module.exports = {
 	},
 	
 	schemas: {
-		addContactSchema: joi.object().keys({
+		contactSchema: joi.object().keys({
 			firstName: joi.string().required(),
 			lastName: joi.string().allow("").optional(),
 			number: joi.string().max(10).required(),
-			email: joi.string().email().allow("").optional()
-		}),
-		updateContactSchema: joi.object().keys({
-			firstName: joi.string().allow("").optional(),
-			lastName: joi.string().allow("").optional(),
-			number: joi.string().max(10).allow("").optional(),
 			email: joi.string().email().allow("").optional()
 		})
 	}
