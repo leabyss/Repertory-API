@@ -2,18 +2,18 @@
 
 Create an API with Nodejs for a simple repertory application made with Angular.
 
-### How to install it.
+### How to install it :
 
 * Clone this repository.
 * Inside the downloaded folder, run ```npm install``` to install all dependencies.
 * Then run ```npm run start-dev``` to start the server with Nodemon.
 * Enjoy !
 
-### Get all contacts
+### Get all contacts :
 
 	GET method on '/repertory'
 
-### Add a contact
+### Add a contact :
 
 	POST method on '/repertory'
 	
@@ -25,7 +25,7 @@ Create an API with Nodejs for a simple repertory application made with Angular.
 				"email" : "emailOfContact"
 			}
 
-### Update a contact
+### Update a contact :
 
 	PUT method on '/repertory/:contactId'
 	
@@ -37,6 +37,6 @@ Create an API with Nodejs for a simple repertory application made with Angular.
 				"email" : "emailOfContact"
 			}
 
-### Delete a contact
+### Delete a contact :
 
 	DELETE method on '/repertory/:contactId'
